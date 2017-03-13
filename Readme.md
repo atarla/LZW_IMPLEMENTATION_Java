@@ -14,8 +14,8 @@ as output.
 Decoder takes compressed file and bit-length as input and generates decoded file as output in the same directory.
 
 DataStructures Used:
-Hashmap for Dictionary/Table (mapping codes to ASCII characters).
-Arraylists: for convenient processing of file data.
+*Hashmap for Dictionary/Table (mapping codes to ASCII characters).
+*Arraylists: for convenient processing of file data.
 
 The programs take input data from file and compare each code/character in a dictionary structure.
 If a match is found the character/code is replaced with code/character and appended to result.
@@ -32,8 +32,11 @@ outputs the code for the remaining string.
 Running Instructions:
 
 javac Encoder.java
+
 java Encoder <filename> <bitlength>
+
 javac Decoder.java
+
 java Decoder <filename> <bitlength>
 
 
