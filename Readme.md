@@ -1,9 +1,6 @@
 # LZW_Algos
 LZW implementation in Java
 
-By Anusha V. Tarla 
-ID: 800970209
-
 Contains to Java Source code files. One for Encoding and one for decoding.
 * Encoder.java
 * Decoder.java
